@@ -1,0 +1,11 @@
+avr-gcc -Wall -Os -DF_CPU=16000000 -mmcu=atmega128rfa1 -mrelax LEDTest.c
+
+avrdude -c STK500 -p m128rfa1 -P /dev/ttyACM0 -F -U flash:w:a.out:i
+
+sudo avrdude -P/dev/ttyACM0 -p m128rfa1  -v -c stk500v2 -t -F
+
+Interactive avrdude for stk500v2 (could be software) programmer
+avrdude -P /dev/ttyUSB0 -p atmega256rfr2  -v -c stk500v2 -t -F
+
+Flash Bootloader using usbasp
+avrdude -c usbasp -P usb -p atmega256rfr2 -v -F -U flash:w:stk500boot_v2_m256rfr2.hex:i

@@ -1,0 +1,13 @@
+KiCAD libraries for Atmel AVR - No VQFN64...
+
+sudo add-apt-repository ppa:adamwolf/kicad-testing-daily
+sudo apt-get update
+Find out the options for kicad:
+sudo apt-cache showpkg kicad
+Read to see which one comes from PPA. Note that version number
+Install the new packages:
+sudo apt-get install kicad=0.0.201210...
+
+
+XBee Alternatives
+https://www.sparkfun.com/products/11279 - http://www.synapse-wireless.com/snap

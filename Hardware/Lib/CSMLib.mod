@@ -1,0 +1,34 @@
+PCBNEW-LibModule-V1  Mon 17 Jun 2013 16:25:31 EST
+# encoding utf-8
+Units mm
+$INDEX
+CSM-3X
+$EndINDEX
+$MODULE CSM-3X
+Po 0 0 0 15 51BEAA3B 00000000 ~~
+Li CSM-3X
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1.5 1.5 0 0.15 N V 21 N "CSM-3X"
+T1 0 -1.8 1.5 1.5 0 0.15 N V 21 N "VAL**"
+DS -4 -2 4 -2 0.15 21
+DS 4 -2 4 2 0.15 21
+DS 4 2 -4 2 0.15 21
+DS -4 2 -4 -2 0.15 21
+$PAD
+Sh "1" R 3.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.75 0
+$EndPAD
+$PAD
+Sh "2" R 3.5 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.75 0
+$EndPAD
+$EndMODULE CSM-3X
+$EndLIBRARY

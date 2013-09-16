@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Tue 25 Jun 2013 18:27:03 EST
+
+BeginCmp
+TimeStamp = /51BF012F;
+Reference = A1;
+ValeurCmp = ChipAntenna;
+IdModule  = _MT_2450AT18D0100;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C8190D;
+Reference = A2;
+ValeurCmp = MMCX_Antenna;
+IdModule  = MMCX-Molex;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB20BE;
+Reference = B1;
+ValeurCmp = Balun;
+IdModule  = _MT_Wuerth748421245;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB02F2;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB0317;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB05D0;
+Reference = C3;
+ValeurCmp = 39p;
+IdModule  = SM0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB05DD;
+Reference = C4;
+ValeurCmp = 39p;
+IdModule  = SM0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB0A6C;
+Reference = C5;
+ValeurCmp = 22p;
+IdModule  = SM0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB0A79;
+Reference = C6;
+ValeurCmp = 22p;
+IdModule  = SM0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BE8D06;
+Reference = C7;
+ValeurCmp = 22p;
+IdModule  = SM0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BE8D1F;
+Reference = C8;
+ValeurCmp = 22p;
+IdModule  = SM0201_r;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C2F773;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB1536;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BE9A19;
+Reference = H2;
+ValeurCmp = ICSP;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB00C4;
+Reference = IC1;
+ValeurCmp = ATMEGA2564/1284/644RFR2;
+IdModule  = QFN50P700X700-49N-MeshThingWPad;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB1C5E;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB1522;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C12882;
+Reference = SJ1;
+ValeurCmp = SMTJPR;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB1BEA;
+Reference = SW1;
+ValeurCmp = RST;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BAA75F;
+Reference = U1;
+ValeurCmp = CONN_MICROSD;
+IdModule  = Memory_Card_microSD_DM3D-SF-NCPads;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BAD430;
+Reference = U2;
+ValeurCmp = XBEE;
+IdModule  = XBee-AuxAntenna;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB0547;
+Reference = XTAL1;
+ValeurCmp = 16MHz;
+IdModule  = CSM-3X;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BE8BFD;
+Reference = XTAL2;
+ValeurCmp = 32.768kHz;
+IdModule  = CM315-Crystal;
+EndCmp
+
+EndListe

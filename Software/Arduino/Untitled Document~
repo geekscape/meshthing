@@ -1,0 +1,7 @@
+You'll need the Zigduino core.
+
+pins_arduino.h needs to go in a folder under <arduino root>/hardware/arduino/variants/meshthing - (ex. ~/arduino-1.0.5/hardware/arduino/variants/meshthing/pinst_arduino.h)
+
+
+
+

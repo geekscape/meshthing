@@ -1,0 +1,89 @@
+EESchema-DOCLIB  Version 2.0  Date: 8/19/2009 2:51:53 PM
+#
+$CMP 74HC138
+D 3-to-8 Decoder Active-Low
+K 3-to-8 Decoder Active-Low
+$ENDCMP
+#
+$CMP AND_GATE
+K NC7SZ08 Single AND Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP attiny44
+K ATtiny24 ATtiny44 ATtiny84
+$ENDCMP
+#
+$CMP AVROpendous-22
+D Used in the Classic AVRopendous SIL board
+K AVROpendous CONN-22
+$ENDCMP
+#
+$CMP AVROpendous-DIP
+K AVRopendous DIP AT90USB162 www.avropendous.org
+$ENDCMP
+#
+$CMP BUFFER_GATE
+K NC7SZ125 Single Buffer Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP C_MINI
+K Unpolarized Capacitor
+$ENDCMP
+#
+$CMP CONN_MMC_MMCplus_GMC06003XSEU
+K Memory Card MMC MMCplus RS-MMC Amphenol GMC06003XSEU or 101-00395-?? or Newark.com 40P2505
+$ENDCMP
+#
+$CMP CP_MINI
+K Polarized Capacitor
+$ENDCMP
+#
+$CMP D_zener
+D Zener Diode
+K DEV DIODE Zener
+$ENDCMP
+#
+$CMP ESD_Zener
+D Double Shottky Diode - Common Cathodes
+K DEV DIODE
+$ENDCMP
+#
+$CMP GNDS
+K GNDS GND_Shield Earth Shield
+$ENDCMP
+#
+$CMP Inverter
+K NC7SZ04 Single Inverter Gate SOT23-5 1.65V-5.5V 24mA
+$ENDCMP
+#
+$CMP LPC175x
+K ARM Cortex-M3 USB Ethernet I2S SPI I2C PWM DAC ADC
+$ENDCMP
+#
+$CMP LPC313x
+K LPC3130 LPC3131 NXP ARM ARM9
+$ENDCMP
+#
+$CMP STEREO-AUDIO-JACK
+K CUI Inc. SJ1-3515-SMT
+$ENDCMP
+#
+$CMP TLV1117
+D LDO
+K POWER REGUL
+$ENDCMP
+#
+$CMP TPS719XX
+D Dual, 200mA Output, Low Noise, High PSRR LDOs
+K LDO 200mA
+$ENDCMP
+#
+$CMP TS3USB221
+K USB 1:2 Multiplexer/Demultiplexer Switch
+$ENDCMP
+#
+$CMP TXB0108
+K Voltage Level Translator
+$ENDCMP
+#
+#End Doc Library
