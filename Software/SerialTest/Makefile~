@@ -11,20 +11,21 @@
 
 DEVICE     = atmega256rfr2
 CLOCK      = 16000000
-PROGRAMMER = -c usbasp -P usb
+#PROGRAMMER = -c usbasp -P usb
 #PROGRAMMER = -c STK500v1 -P /dev/ttyACM0 -b 19200
+PROGRAMMER = -c STK500v2 -P /dev/ttyUSB0
 
 OBJECTS    = SerialTest.o
 # FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0x24:m
 ##FUSES      = -U hfuse:w:0xd2:m -U lfuse:w:0xff:m
 # update that line with this when programmer is back up:
 # FUSES      = -U hfuse:w:0xd7:m -U lfuse:w:0xff:m
-FUSES      = -U hfuse:w:0x99:m -U lfuse:w:0xef:m
+FUSES      = -U hfuse:w:0x98:m -U lfuse:w:0xef:m
 
 # Tune the lines below only if you know what you are doing:
 
 #AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -B 10 -D -F
-AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -v -F
+AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -v 
 COMPILE = avr-gcc -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) -I. -ffunction-sections
 
 # symbolic targets:
@@ -46,6 +47,9 @@ all:	SerialTest.hex
 
 flash:	all
 	$(AVRDUDE) -U flash:w:SerialTest.hex:i
+
+dirty: all
+	$(AVRDUDE) -D -U flash:w:SerialTest.hex:i
 
 fuse:
 	$(AVRDUDE) $(FUSES)

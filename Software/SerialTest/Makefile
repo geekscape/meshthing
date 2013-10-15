@@ -13,6 +13,7 @@ DEVICE     = atmega256rfr2
 CLOCK      = 16000000
 PROGRAMMER = -c usbasp -P usb
 #PROGRAMMER = -c STK500v1 -P /dev/ttyACM0 -b 19200
+#PROGRAMMER = -c STK500v2 -P /dev/ttyUSB2
 
 OBJECTS    = SerialTest.o
 # FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0x24:m
