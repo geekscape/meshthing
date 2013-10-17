@@ -1,4 +1,4 @@
-update=Mon 09 Sep 2013 13:32:48 EST
+update=Fri 18 Oct 2013 07:16:20 EST
 last_client=pcbnew
 [cvpcb]
 version=1
@@ -51,12 +51,12 @@ LibName34=Gajda_analogSW
 LibName35=ATMega256RFR2
 [pcbnew]
 version=1
-LastNetListRead=MeshThing.v1.1.net
+LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.812800"
-PadDrillOvalY="    0.812800"
-PadSizeH="    1.524000"
-PadSizeV="    1.524000"
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    1.000000"
+PadSizeV="    2.000000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"

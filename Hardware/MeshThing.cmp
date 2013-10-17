@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Thu 04 Jul 2013 13:02:11 EST
+Cmp-Mod V01 Created by PcbNew date = Fri 18 Oct 2013 07:24:23 EST
 
 BeginCmp
 TimeStamp = /51BF012F;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /51BB20BE;
 Reference = B1;
 ValeurCmp = Balun;
-IdModule  = _MT_Wuerth748421245;
+IdModule  = _MT_Wuerth748421245-A;
 EndCmp
 
 BeginCmp
@@ -115,14 +115,14 @@ EndCmp
 BeginCmp
 TimeStamp = /51BB1522;
 Reference = R2;
-ValeurCmp = 10k;
+ValeurCmp = 270;
 IdModule  = _MT_SM0603_Resistor;
 EndCmp
 
 BeginCmp
 TimeStamp = /51D4C38E;
 Reference = R3;
-ValeurCmp = 10k;
+ValeurCmp = 270;
 IdModule  = _MT_SM0603_Resistor;
 EndCmp
 
@@ -144,7 +144,7 @@ BeginCmp
 TimeStamp = /51BB1BEA;
 Reference = SW1;
 ValeurCmp = RST;
-IdModule  = _MT_Switch_SMT_EVQ_NCPads;
+IdModule  = _MT_TC007-TactileSwitch;
 EndCmp
 
 BeginCmp
@@ -172,7 +172,7 @@ BeginCmp
 TimeStamp = /51BE8BFD;
 Reference = XTAL2;
 ValeurCmp = 32kHz;
-IdModule  = _MT_CM315-Crystal;
+IdModule  = _MT_TF32D-32768-Crystal;
 EndCmp
 
 EndListe

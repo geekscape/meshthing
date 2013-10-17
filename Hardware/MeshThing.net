@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/bob/Git/_MeshThing/MeshThing.v1.1.sch)
-    (date "Mon 09 Sep 2013 09:24:37 EST")
+    (source /home/bob/Git/_MeshThing/Hardware/MeshThing.sch)
+    (date "Tue 15 Oct 2013 14:11:57 EST")
     (tool "eeschema (2013-mar-13)-testing"))
   (components
     (comp (ref U1)
@@ -57,7 +57,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51BB0A79))
     (comp (ref R2)
-      (value 10k)
+      (value 270)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 51BB1522))
@@ -122,7 +122,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 51D4C269))
     (comp (ref R3)
-      (value 5k)
+      (value 270)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 51D4C38E))
