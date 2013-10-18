@@ -1,0 +1,23 @@
+### Module positions - created on Fri 18 Oct 2013 16:11:46 EST ###
+### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
+## Unit = mm, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       100n             _MT_SM0603_Capa    18.8900     8.1700     270.0    F.Cu
+C2       100n             _MT_SM0603_Capa    20.1400    21.0000       0.0    F.Cu
+C3       39p              _MT_SM0603_Capa    17.9400    16.8000      90.0    F.Cu
+C4       39p              _MT_SM0603_Capa    17.9400    14.2400     270.0    F.Cu
+C5       22p              _MT_SM0603_Capa    11.9100    23.1400     270.0    F.Cu
+C6       22p              _MT_SM0603_Capa    10.3600    23.1400     270.0    F.Cu
+C7       22p              _MT_SM0603_Capa     7.5500    24.0100      90.0    F.Cu
+C8       22p              _MT_SM0603_Capa     6.0000    24.0100      90.0    F.Cu
+C9       100n             _MT_SM0603_Capa    14.5300     8.1700     270.0    F.Cu
+D1       LED              _MT_LED-0603       17.4900     8.1700      90.0    F.Cu
+D2       LED              _MT_LED-0603       20.4900     8.1700      90.0    F.Cu
+IC1      ATMEGA2564/1284/ _MT_QFN50P700X70   11.1400    16.0200     270.0    F.Cu
+R1       10k              _MT_SM0603_Resis   12.9800     8.1700     270.0    F.Cu
+R2       270              _MT_SM0603_Resis   16.0800     8.1700     270.0    F.Cu
+R3       270              _MT_SM0603_Resis   21.8700     8.1700      90.0    F.Cu
+SJ1      SMTJPR           _MT_SMTJumper      11.7000     8.1700     270.0    F.Cu
+SJ2      SMTJPR           _MT_SMTJumper      21.6000     6.1600     180.0    F.Cu
+## End

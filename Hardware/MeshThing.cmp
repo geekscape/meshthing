@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Fri 18 Oct 2013 07:24:23 EST
+Cmp-Mod V01 Created by PcbNew date = Fri 18 Oct 2013 15:20:51 EST
 
 BeginCmp
 TimeStamp = /51BF012F;
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /51BAA75F;
 Reference = U1;
 ValeurCmp = CONN_MICROSD;
-IdModule  = _MT_microSD_3M_290805;
+IdModule  = _MT_microSD_3M_290805-A;
 EndCmp
 
 BeginCmp
