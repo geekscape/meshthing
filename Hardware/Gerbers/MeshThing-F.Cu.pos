@@ -1,23 +1,31 @@
-### Module positions - created on Fri 18 Oct 2013 16:11:46 EST ###
+### Module positions - created on Tue 22 Oct 2013 13:37:17 EST ###
 ### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
 ## Unit = mm, Angle = deg.
 ## Side : F.Cu
 # Ref    Val                  Package         PosX       PosY        Rot     Side
-C1       100n             _MT_SM0603_Capa    18.8900     8.1700     270.0    F.Cu
-C2       100n             _MT_SM0603_Capa    20.1400    21.0000       0.0    F.Cu
-C3       39p              _MT_SM0603_Capa    17.9400    16.8000      90.0    F.Cu
-C4       39p              _MT_SM0603_Capa    17.9400    14.2400     270.0    F.Cu
-C5       22p              _MT_SM0603_Capa    11.9100    23.1400     270.0    F.Cu
-C6       22p              _MT_SM0603_Capa    10.3600    23.1400     270.0    F.Cu
-C7       22p              _MT_SM0603_Capa     7.5500    24.0100      90.0    F.Cu
-C8       22p              _MT_SM0603_Capa     6.0000    24.0100      90.0    F.Cu
-C9       100n             _MT_SM0603_Capa    14.5300     8.1700     270.0    F.Cu
-D1       LED              _MT_LED-0603       17.4900     8.1700      90.0    F.Cu
-D2       LED              _MT_LED-0603       20.4900     8.1700      90.0    F.Cu
-IC1      ATMEGA2564/1284/ _MT_QFN50P700X70   11.1400    16.0200     270.0    F.Cu
-R1       10k              _MT_SM0603_Resis   12.9800     8.1700     270.0    F.Cu
-R2       270              _MT_SM0603_Resis   16.0800     8.1700     270.0    F.Cu
-R3       270              _MT_SM0603_Resis   21.8700     8.1700      90.0    F.Cu
-SJ1      SMTJPR           _MT_SMTJumper      11.7000     8.1700     270.0    F.Cu
-SJ2      SMTJPR           _MT_SMTJumper      21.6000     6.1600     180.0    F.Cu
+A1       Antenna          Johanson-2450AT4   16.9200    25.0700       0.0    F.Cu
+B1       Balun            _MT_Wuerth748421   11.1200    25.3700       0.0    F.Cu
+C1       100n             _MT_SM0603_Capa    18.8700     8.0300     270.0    F.Cu
+C2       100n             _MT_SM0603_Capa    20.1200    20.8600       0.0    F.Cu
+C3       39p              _MT_SM0603_Capa    17.9200    16.6600      90.0    F.Cu
+C4       39p              _MT_SM0603_Capa    17.9200    14.1000     270.0    F.Cu
+C5       22p              _MT_SM0603_Capa    11.8900    23.0000     270.0    F.Cu
+C6       22p              _MT_SM0603_Capa    10.3400    23.0000     270.0    F.Cu
+C7       22p              _MT_SM0603_Capa     7.5300    23.8700      90.0    F.Cu
+C8       22p              _MT_SM0603_Capa     5.9800    23.8700      90.0    F.Cu
+C9       100n             _MT_SM0603_Capa    14.5100     8.0300     270.0    F.Cu
+D1       LED              _MT_LED-0603       17.4700     8.0300      90.0    F.Cu
+D2       LED              _MT_LED-0603       20.4700     8.0300      90.0    F.Cu
+F1       VAL**            _MT_Fiducial        3.4400    23.0600       0.0    F.Cu
+F2       VAL**            _MT_Fiducial       22.7300    22.7400       0.0    F.Cu
+F3       VAL**            _MT_Fiducial        2.8100     1.0100       0.0    F.Cu
+H1       Header           10x1-2mm_Male       1.9593    11.9795      90.0    F.Cu
+H2       Header           10x1-2mm_Male      23.9607    11.9795      90.0    F.Cu
+IC1      ATMEGA2564RFR2   QFN50P700X700      11.1200    15.8800     270.0    F.Cu
+R1       10k              _MT_SM0603_Resis   12.9600     8.0300     270.0    F.Cu
+R2       270              _MT_SM0603_Resis   16.0600     8.0300     270.0    F.Cu
+R3       270              _MT_SM0603_Resis   21.8500     8.0300      90.0    F.Cu
+SW1      RST              _MT_TC007-Tactil   12.9600     1.8700     180.0    F.Cu
+XTAL1    16MHz            _MT_CSM-3X-Cryst   20.7700    15.3800      90.0    F.Cu
+XTAL2    32kHz            _MT_TF32D-32768-    6.6900    21.4700       0.0    F.Cu
 ## End

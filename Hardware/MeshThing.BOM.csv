@@ -1,0 +1,16 @@
+Part,Reference,Value,Package,Manufacturer,MFG. Part No.,Number,Comment,Link,Digikey PartNo.
+Johanson Chip Antenna 2450AT42B100,A1,Antenna,,Johanson Technology Inc,2450AT42B100E,1,,http://www.digikey.com/product-detail/en/2450AT42B100E/712-1008-1-ND/1560837,712-1008-1-ND
+Wurth Balun 748421245,B1,Balun,6-Pin 0805,Wurth Electronics Inc,748421245,1,,http://www.digikey.com/product-detail/en/748421245/732-2230-1-ND/2175744,732-2230-1-ND
+SMD Cap,C1/C2/C9,100n,SM0603,TDK Corporation,C1608X7R1E104K080AA,3,25v rating,http://www.digikey.com/product-detail/en/C1608X7R1E104K080AA/445-1316-1-ND/567697,445-1316-1-ND
+SMD Cap,C3/C4,39p,SM0603,TDK Corporation,C1608C0G1H390J080AA,2,50v rating,http://www.digikey.com/product-detail/en/C1608C0G1H390J080AA/445-1276-1-ND/567678,445-1276-1-ND
+SMD Cap,C5/C6/C7/C8,22p,SM0603,TDK Corporation,C1608C0G1H220J080AA,4,50v rating,http://www.digikey.com/product-detail/en/C1608C0G1H220J080AA/445-1273-1-ND/567670,445-1273-1-ND
+SMD LED,D1,RED LED,SM0603,Lite-On Inc,LTST-C190KRKT,1,2v/red,http://www.digikey.com/product-detail/en/LTST-C190KRKT/160-1436-1-ND/386816,160-1436-1-ND
+SMD LED,D2,GREEN LED,SM0603,Lite-On Inc,LTST-C190GKT,1,2v/green,http://www.digikey.com/product-detail/en/LTST-C190GKT/160-1183-1-ND/269255,160-1183-1-ND
+10 Pin 2mm Headers,H1/H2,Headers,10 pin x 1 row,3M,951110-8622-AR,2,Male/ unshrouded,http://www.digikey.com/product-detail/en/951110-8622-AR/3M9329-ND/1959057,3M9329-ND
+AVR ATMega2564RFR2,IC1,ATMEGA2564RFR2,QFN48+Pad 7mmX7mm,Atmel,ATmega2564RFR2-ZF,1,,http://www.digikey.com/product-detail/en/ATMEGA2564RFR2-ZF/ATMEGA2564RFR2-ZF-ND/4119506,ATMEGA2564RFR2-ZF-ND
+SMD R,R1,10k,SM0603,Panasonic Electronic Components,ERJ-3EKF1002V,1,.1w rating,http://www.digikey.com/product-detail/en/ERJ-3EKF1002V/P10.0KHCT-ND/198102,P10.0KHCT-ND
+SMD R,R2/R3,270R,SM0603,Panasonic Electronic Components,ERJ-3GEYJ271V,2,.1W rating,http://www.digikey.com.au/product-detail/en/ERJ-3GEYJ271V/P270GCT-ND/134766,P270GCT-ND
+Tactile Switch,SW1,RST,2.9 X 3.9 mm,Well Buying Industrial Co. Ltd.,TC007-BBA,1,,http://industry.teema.org.tw/auto/PdtCmpProd_eng.asp?id=2160,
+uSD Card Connector/Holder,U1,CONN_MICROSD,,Amphenol Commercial Products,101-00581-59,1,,http://www.digikey.com/product-detail/en/101-00581-59/101-00581-59-1-ND/2187102,101-00581-59-1-ND
+ECS 16MHz Crystal CSM-3X,XTAL1,16MHz,CSM-3X,ECS Inc,ECS-160-20-3X-TR,1,,http://www.digikey.com/product-detail/en/ECS-160-20-3X-TR/XC1776CT-ND/2676640,XC1776CT-ND
+32.768KHz Crystal,XTAL2,32.768KHz,,CTS-Frequency Controls,TF322P32K7680,1,12.5pF 70kOhm,http://www.digikey.com.au/product-detail/en/TF322P32K7680/CTX1160CT-ND/2809783,CTX1160CT-ND
