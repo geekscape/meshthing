@@ -1,0 +1,21 @@
+KiCAD libraries for Atmel AVR - No VQFN64...
+KiCad Xbee Library - http://www.kicadlib.org/modules/xbee.zip
+Great Scott! - http://opendous.googlecode.com/files/KiCAD_Libraries-2009-10-04.zip
+https://code.google.com/p/opendous/downloads/detail?name=KiCad_Libraries-2012-10-18.zip&can=2&q=
+
+sudo add-apt-repository ppa:adamwolf/kicad-testing-daily
+sudo apt-get update
+Find out the options for kicad:
+sudo apt-cache showpkg kicad
+Read to see which one comes from PPA. Note that version number
+Install the new packages:
+sudo apt-get install kicad=0.0.201210...
+
+
+XBee Alternatives
+https://www.sparkfun.com/products/11279 - http://www.synapse-wireless.com/snap
+
+802.15.4 Modules
+http://en.wikipedia.org/wiki/Comparison_of_802.15.4_radio_modules
+http://www.lsr.com/wireless-products/proflex01-r2 (CC2520 & CC2591 -- Ships with Arduino Shield)
+
