@@ -1,5 +1,0 @@
-You have to use this file with the Arduino libraries and must have the right pins defined in pins_arduino as indicated in the comments of ReadWrite.arduino!!!
-
-Appropriate pins_arduino.h can be found in ../Arduino/Meshthing/ - look for comments to indicate as such.
-
-
