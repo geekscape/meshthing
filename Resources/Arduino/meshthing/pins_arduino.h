@@ -162,7 +162,7 @@ const uint8_t PROGMEM digital_pin_to_port_PGM[] = {
 
 	PE	, // PE 1 ** 18 ** USART0_TX	-- XBee Pin 2
 	PE	, // PE 0 ** 19 ** USART0_RX	-- XBee Pin 3
-	PD	, // PD 0 ** 20 ** --Dummy D0 for now
+	PD	, // PD 2 ** 20 ** USART1_RX    -- XBee Pin 8
 	PD	, // PD 0 ** 21 ** 
 	PB	, // PB 0 ** 22 ** --Dummy PB0 for SD card?
 	PD  , // PD 5 ** 23 ** RFTX		--These aren't wired to anything either.
