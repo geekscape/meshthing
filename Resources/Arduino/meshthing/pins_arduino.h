@@ -198,7 +198,7 @@ const uint8_t PROGMEM digital_pin_to_bit_mask_PGM[] = {
 	
 	_BV( 1 )	, // PF 5 ** 18 ** A5
 	_BV( 0 )	, // PB 2 ** 19 ** SPI_MOSI
-	_BV( 0 )	, // PD 0 ** 20 ** I2C_SCL
+	_BV( 2 )	, // PD 0 ** 20 ** I2C_SCL
 	_BV( 0 )	, // PD 1 ** 21 ** I2C_SDA	
 	_BV( 0 )	, // PD 1 ** 22 ** I2C_SDA	
 	_BV( 5 )  	, // PD 5 ** 23 ** RFTX
