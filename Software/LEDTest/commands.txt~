@@ -1,5 +1,0 @@
-avr-gcc -Wall -Os -DF_CPU=16000000 -mmcu=atmega128rfa1 -mrelax LEDTest.c
-
-avrdude -c STK500 -p m128rfa1 -P /dev/ttyACM0 -F -U flash:w:a.out:i
-
-sudo avrdude -P/dev/ttyACM0 -p m128rfa1  -v -c stk500v2 -t -F
