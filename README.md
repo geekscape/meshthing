@@ -15,4 +15,8 @@ Contents:
 
 -Reference - Mostly datasheets.
 
+Pinout:
+![Pinout](https://github.com/geekscape/meshthing/blob/master/Resources/MTPinout.png?raw=true)
+
+Render:
 ![MeshThing v1.2](https://github.com/geekscape/meshthing/blob/master/Hardware/Gerbers/MTv1.2FrontRefOnly.png?raw=true)
