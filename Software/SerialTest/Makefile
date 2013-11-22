@@ -20,12 +20,12 @@ OBJECTS    = SerialTest.o
 ##FUSES      = -U hfuse:w:0xd2:m -U lfuse:w:0xff:m
 # update that line with this when programmer is back up:
 # FUSES      = -U hfuse:w:0xd7:m -U lfuse:w:0xff:m
-FUSES      = -U hfuse:w:0x98:m -U lfuse:w:0xef:m
+FUSES      = -U hfuse:w:0xd8:m -U lfuse:w:0xef:m
 
 # Tune the lines below only if you know what you are doing:
 
 #AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -B 10 -D -F
-AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -v 
+AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE) -v -B 10 
 COMPILE = avr-gcc -Wall -Os -DF_CPU=$(CLOCK) -mmcu=$(DEVICE) -I. -ffunction-sections
 
 # symbolic targets:

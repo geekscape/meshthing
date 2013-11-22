@@ -23,7 +23,7 @@ OBJECTS    = LEDTest.o
 # update that line with this when programmer is back up:
 # FUSES      = -U hfuse:w:0xd7:m -U lfuse:w:0xff:m
 #FUSES      = -U hfuse:w:0x98:m -U lfuse:w:0xef:m
-FUSES      = -U hfuse:w:0x99:m -U lfuse:w:0xef:m
+FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0xef:m
 
 # Tune the lines below only if you know what you are doing:
 

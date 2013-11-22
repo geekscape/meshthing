@@ -24,14 +24,14 @@ File myFile;
 
 void setup()
 {
- // Open Serial1 communications and wait for port to open:
-  Serial1.begin(9600);
-   while (!Serial1) {
-    ; // wait for Serial1 port to connect. Needed for Leonardo only
+ // Open Serial communications and wait for port to open:
+  Serial.begin(9600);
+   while (!Serial) {
+    ; // wait for Serial port to connect. Needed for Leonardo only
   }
 
 
-  Serial1.print("Initializing SD card...");
+  Serial.print("Initializing SD card...");
   // On the Ethernet Shield, CS is pin 4. It's set as an output by default.
   // Note that even if it's not used as the CS pin, the hardware SS pin 
   // (10 on most Arduino boards, 53 on the Mega) must be left as an output 
@@ -39,10 +39,10 @@ void setup()
    pinMode(22, OUTPUT);
    
   if (!SD.begin(17)) {
-    Serial1.println("initialization failed!");
+    Serial.println("initialization failed!");
     return;
   }
-  Serial1.println("initialization done.");
+  Serial.println("initialization done.");
   
   // open the file. note that only one file can be open at a time,
   // so you have to close this one before opening another.
@@ -50,30 +50,30 @@ void setup()
   
   // if the file opened okay, write to it:
   if (myFile) {
-    Serial1.print("Writing to test.txt...");
+    Serial.print("Writing to test.txt...");
     myFile.println("testing 1, 2, 3.");
 	// close the file:
     myFile.close();
-    Serial1.println("done.");
+    Serial.println("done.");
   } else {
     // if the file didn't open, print an error:
-    Serial1.println("error opening test.txt");
+    Serial.println("error opening test.txt");
   }
   
   // re-open the file for reading:
   myFile = SD.open("test.txt");
   if (myFile) {
-    Serial1.println("test.txt:");
+    Serial.println("test.txt:");
     
     // read from the file until there's nothing else in it:
     while (myFile.available()) {
-    	Serial1.write(myFile.read());
+    	Serial.write(myFile.read());
     }
     // close the file:
     myFile.close();
   } else {
   	// if the file didn't open, print an error:
-    Serial1.println("error opening test.txt");
+    Serial.println("error opening test.txt");
   }
 }
 
