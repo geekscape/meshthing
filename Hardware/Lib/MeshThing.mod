@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 22 Oct 2013 13:47:49 EST
+PCBNEW-LibModule-V1  Tue 17 Dec 2013 15:53:29 EST
 # encoding utf-8
 Units mm
 $INDEX
@@ -20,6 +20,7 @@ _MT_Board
 _MT_CM315-Crystal
 _MT_CSM-3X-Crystal
 _MT_Fiducial
+_MT_IFA-2.4GHzPCBAntenna
 _MT_LED-0603
 _MT_QFN50P700X700-49N-MeshThingWPad
 _MT_QFN50P700X700-49N-MeshThingWPadVias
@@ -2103,6 +2104,108 @@ Po 0 0
 .LocalClearance 0.375
 $EndPAD
 $EndMODULE _MT_Fiducial
+$MODULE _MT_IFA-2.4GHzPCBAntenna
+Po 0 0 0 15 52AFD898 00000000 ~~
+Li _MT_IFA-2.4GHzPCBAntenna
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.84 1.5 1.5 0 0.15 N V 21 N "**REF"
+T1 0 4.32 1.5 1.5 0 0.15 N I 21 N "VAL**"
+T2 -6.63 3.33 0.5 0.5 0 0.125 N I 21 N "ViaToGnd"
+DS -6.85 2.4 -6.45 2.4 0.15 25
+DS -6.65 2.6 -6.65 2.2 0.15 25
+DS -7.6 2.35 7.6 2.35 0.1 25
+T2 -0.57 2.42 0.5 0.5 0 0.125 N I 21 N "FeedPoint-50 Ohm"
+DS 7.6 -2.85 -7.6 -2.85 0.15 21
+DS 7.6 2.85 7.6 -2.85 0.15 21
+DS -7.6 2.85 7.6 2.85 0.15 21
+DS -7.6 2.85 -7.6 -2.85 0.15 21
+$PAD
+Sh "1" R 0.5 2.64 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.15 -0.73
+$EndPAD
+$PAD
+Sh "1" R 0.5 2.64 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.35 -0.73
+$EndPAD
+$PAD
+Sh "1" R 0.5 2.64 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.85 -0.73
+$EndPAD
+$PAD
+Sh "1" R 0.5 2.64 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.35 -0.73
+$EndPAD
+$PAD
+Sh "1" R 2.7 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.25 -2.3
+$EndPAD
+$PAD
+Sh "1" R 2.7 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 5.95 -2.3
+$EndPAD
+$PAD
+Sh "1" R 2 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.6 0.34
+$EndPAD
+$PAD
+Sh "1" R 2 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.1 0.34
+$EndPAD
+$PAD
+Sh "1" R 0.5 3.94 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 7.05 -0.08
+$EndPAD
+$PAD
+Sh "1" R 5 0.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.6 -2.3
+$EndPAD
+$PAD
+Sh "1" R 0.5 4.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.55 0.4
+$EndPAD
+$PAD
+Sh "2" R 0.9 4.9 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -6.65 0.4
+$EndPAD
+$EndMODULE _MT_IFA-2.4GHzPCBAntenna
 $MODULE _MT_LED-0603
 Po 0 0 0 15 52604B33 00000000 ~~
 Li _MT_LED-0603

@@ -1,2 +1,4 @@
 (fp_lib_table
+  (lib (name _MT_Antennas)(type Legacy)(uri ${KIPRJMOD}/Lib/YT_antennes/antennes.mod)(options "")(descr ""))
+  (lib (name _MT_MeshThing)(type Legacy)(uri ${KIPRJMOD}/Lib/MeshThing.mod)(options "")(descr ""))
 )
