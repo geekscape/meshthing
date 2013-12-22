@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by PcbNew date = Fri 18 Oct 2013 15:20:51 EST
+Cmp-Mod V01 Created by CvPcb (2013-12-14 BZR 4555)-product date = Sun 22 Dec 2013 15:20:43 EST
 
 BeginCmp
-TimeStamp = /51BF012F;
+TimeStamp = /52B26C06;
 Reference = A1;
-ValeurCmp = Antenna;
-IdModule  = Johanson-2450AT42B100-PadsOnly;
+ValeurCmp = ANTENNA;
+IdModule  = _MT_MeshThing:_MT_IFA-2.4GHzPCBAntenna;
 EndCmp
 
 BeginCmp
@@ -18,84 +18,84 @@ BeginCmp
 TimeStamp = /51BB02F2;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = _MT_SM0603_Capa;
+IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BB0317;
 Reference = C2;
 ValeurCmp = 100n;
-IdModule  = _MT_SM0603_Capa;
+IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BB05D0;
 Reference = C3;
-ValeurCmp = 39p;
-IdModule  = _MT_SM0603_Capa;
+ValeurCmp = 10p;
+IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BB05DD;
 Reference = C4;
-ValeurCmp = 39p;
-IdModule  = _MT_SM0603_Capa;
+ValeurCmp = 10p;
+IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BB0A6C;
 Reference = C5;
 ValeurCmp = 22p;
-IdModule  = _MT_SM0603_Capa;
+IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BB0A79;
 Reference = C6;
 ValeurCmp = 22p;
-IdModule  = _MT_SM0603_Capa;
+IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BE8D06;
 Reference = C7;
 ValeurCmp = 22p;
-IdModule  = _MT_SM0603_Capa;
+IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
 TimeStamp = /51BE8D1F;
 Reference = C8;
 ValeurCmp = 22p;
-IdModule  = _MT_SM0603_Capa;
+IdModule  = SMD_Packages:SM0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /51C2F773;
-Reference = C9;
-ValeurCmp = 100n;
-IdModule  = _MT_SM0603_Capa;
+TimeStamp = /52B65D33;
+Reference = F1;
+ValeurCmp = CONN_1;
+IdModule  = _MT_MC_Pretty:_MT_Fiducial;
 EndCmp
 
 BeginCmp
-TimeStamp = /51BB1536;
-Reference = D1;
-ValeurCmp = LED;
-IdModule  = _MT_LED-0603;
+TimeStamp = /52B65D45;
+Reference = F2;
+ValeurCmp = CONN_1;
+IdModule  = _MT_MC_Pretty:_MT_Fiducial;
 EndCmp
 
 BeginCmp
-TimeStamp = /51D4C39D;
-Reference = D2;
-ValeurCmp = LED;
-IdModule  = _MT_LED-0603;
+TimeStamp = /52B65D55;
+Reference = F3;
+ValeurCmp = CONN_1;
+IdModule  = _MT_MC_Pretty:_MT_Fiducial;
 EndCmp
 
 BeginCmp
-TimeStamp = /51BE9A19;
-Reference = H2;
+TimeStamp = /52B66679;
+Reference = H1;
 ValeurCmp = ICSP;
-IdModule  = _MT_pin_array_3x2;
+IdModule  = _MT_MC_Pretty:_MC_pin_pad_3x2;
 EndCmp
 
 BeginCmp
@@ -106,65 +106,30 @@ IdModule  = _MT_QFN50P700X700-49N-MeshThingWPadVias;
 EndCmp
 
 BeginCmp
+TimeStamp = /52B3D926;
+Reference = P1;
+ValeurCmp = CONN34;
+IdModule  = _MT_MC_Pretty:_MC_CanFootprint;
+EndCmp
+
+BeginCmp
 TimeStamp = /51BB1C5E;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = _MT_SM0603_Resistor;
+IdModule  = SMD_Packages:SM0402_r;
 EndCmp
 
 BeginCmp
-TimeStamp = /51BB1522;
-Reference = R2;
-ValeurCmp = 270;
-IdModule  = _MT_SM0603_Resistor;
+TimeStamp = /52B27D84;
+Reference = S1;
+ValeurCmp = RFShield;
+IdModule  = _MT_MC_Pretty:_MT_MC_EMIShield-16.5x16.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /51D4C38E;
-Reference = R3;
-ValeurCmp = 270;
-IdModule  = _MT_SM0603_Resistor;
-EndCmp
-
-BeginCmp
-TimeStamp = /51C12882;
-Reference = SJ1;
-ValeurCmp = SMTJPR;
-IdModule  = _MT_SMTJumper;
-EndCmp
-
-BeginCmp
-TimeStamp = /51D4C269;
-Reference = SJ2;
-ValeurCmp = SMTJPR;
-IdModule  = _MT_SMTJumper;
-EndCmp
-
-BeginCmp
-TimeStamp = /51BB1BEA;
-Reference = SW1;
-ValeurCmp = RST;
-IdModule  = _MT_TC007-TactileSwitch;
-EndCmp
-
-BeginCmp
-TimeStamp = /51BAA75F;
-Reference = U1;
-ValeurCmp = CONN_MICROSD;
-IdModule  = _MT_microSD_3M_290805-A;
-EndCmp
-
-BeginCmp
-TimeStamp = /51BAD430;
-Reference = U2;
-ValeurCmp = XBEE;
-IdModule  = _MT_XBee_Board_STD_THPads;
-EndCmp
-
-BeginCmp
-TimeStamp = /51BB0547;
+TimeStamp = /52B2759E;
 Reference = XTAL1;
-ValeurCmp = 16MHz;
+ValeurCmp = CRYSTAL_SMD-TSX3225;
 IdModule  = _MT_CSM-3X-Crystal;
 EndCmp
 
