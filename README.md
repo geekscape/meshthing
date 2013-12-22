@@ -3,7 +3,7 @@ meshthing
 
 MeshThing module: Hardware and software repository
 
-Current version is v1.2.
+Current version is v2.0
 
 Contents:
 ----------
@@ -15,6 +15,7 @@ Contents:
 
 -Reference - Mostly datasheets.
 
+From v1.2 -- To be updated.
 Pinout:
 ![Pinout](https://github.com/geekscape/meshthing/blob/master/Resources/MTPinout.png?raw=true)
 
