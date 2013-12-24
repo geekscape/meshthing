@@ -1,0 +1,8 @@
+Part	Reference	Value	Package	Manufacturer	MFG. Part No.	Number	Comment	Link	Digikey PartNo.		More Notes/Comments
+SMD LED	D1	RED LED	SM0603	Lite-On Inc	LTST-C190KRKT	1	2v/red	http://www.digikey.com/product-detail/en/LTST-C190KRKT/160-1436-1-ND/386816	160-1436-1-ND		
+SMD LED	D2	GREEN LED	SM0603	Lite-On Inc	LTST-C190GKT	1	2v/green	http://www.digikey.com/product-detail/en/LTST-C190GKT/160-1183-1-ND/269255	160-1183-1-ND		
+SMD R	R2/R3	270R	SM0603	Panasonic Electronic Components	ERJ-3GEYJ271V	2	.1W rating	http://www.digikey.com.au/product-detail/en/ERJ-3GEYJ271V/P270GCT-ND/134766	P270GCT-ND		
+Tactile Switch	SW1	Reset	2.9 X 3.9 mm	Well Buying Industrial Co. Ltd.	TC007-BBA	1		http://industry.teema.org.tw/auto/PdtCmpProd_eng.asp?id=2160			2.5mm Tall
+uSD Card Connector/Holder	U1	CONN_MICROSD		Amphenol Commercial Products	101-00581-59	1		http://www.digikey.com/product-detail/en/101-00581-59/101-00581-59-1-ND/2187102	101-00581-59-1-ND		
+											
+10 Pin 2mm Recepticles	H1/H2	Headers	10 pin x 1 row	SAMTEC	SAMTEC SQT-110-03-L-S	2	Male/female	http://www.samtec.com/ftppub/pdf/sqt_th.pdf			

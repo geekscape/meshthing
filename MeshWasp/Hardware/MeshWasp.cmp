@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by CvPcb (2013-12-14 BZR 4555)-product date = Mon 23 Dec 2013 13:23:43 EST
+
+BeginCmp
+TimeStamp = /51C2F773;
+Reference = C9;
+ValeurCmp = 100n;
+IdModule  = _MT_MeshThing:_MT_SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB1536;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = _MT_MeshThing:_MT_LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D4C39D;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = _MT_MeshThing:_MT_LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BE9A19;
+Reference = H2;
+ValeurCmp = ICSP;
+IdModule  = _MW_MeshWasp:_MC_pin_pad_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B798AE;
+Reference = MT1;
+ValeurCmp = MESHTHING;
+IdModule  = _MW_MeshWasp:_MT_CanFootprint-34Pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB1522;
+Reference = R2;
+ValeurCmp = 270;
+IdModule  = _MT_MeshThing:_MT_SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D4C38E;
+Reference = R3;
+ValeurCmp = 270;
+IdModule  = _MT_MeshThing:_MT_SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C12882;
+Reference = SJ1;
+ValeurCmp = SMTJPR;
+IdModule  = _MT_MeshThing:_MT_SMTJumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /51D4C269;
+Reference = SJ2;
+ValeurCmp = SMTJPR;
+IdModule  = _MT_MeshThing:_MT_SMTJumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BB1BEA;
+Reference = SW1;
+ValeurCmp = RST;
+IdModule  = _MT_MeshThing:_MT_TC007-TactileSwitch;
+EndCmp
+
+BeginCmp
+TimeStamp = /51BAA75F;
+Reference = U1;
+ValeurCmp = CONN_MICROSD;
+IdModule  = _MT_MeshThing:_MT_microSD_3M_290805-A;
+EndCmp
+
+BeginCmp
+TimeStamp = /52B798C2;
+Reference = U2;
+ValeurCmp = XBEE;
+IdModule  = _MT_MeshThing:_MT_XBee_Board_STD_THPads;
+EndCmp
+
+EndListe
