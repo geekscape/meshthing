@@ -1,6 +1,7 @@
 Hardware/[Aa]rchive
 *.autosave
 *.kicad_pcb-bak
+_autosave*
 
 #################
 ## Standard C

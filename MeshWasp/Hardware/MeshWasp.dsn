@@ -1,4 +1,4 @@
-(pcb /home/bob/Git/MeshAge/meshwasp/Hardware/MeshWasp.dsn
+(pcb /home/bob/Git/MeshAge/meshthing/MeshWasp/Hardware/MeshWasp.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -21,11 +21,12 @@
       )
     )
     (boundary
-      (rect pcb 137160 -93002.3 162840 -121003)
+      (path pcb 0  137120 -99410  144590 -92960  155400 -92970  162890 -99410
+            162890 -121010  137120 -121010  137120 -99410)
     )
-    (keepout "" (polygon F.Cu 0  159550 -101030  140470 -101030  140470 -95720  159550 -95720))
-    (keepout "" (polygon B.Cu 0  140470 -101030  159550 -101030  159550 -95720  140460 -95720
-            140460 -101030  140470 -101030))
+    (keepout "" (polygon F.Cu 0  159620 -98230  140540 -98230  140540 -92920  159620 -92920))
+    (keepout "" (polygon B.Cu 0  140520 -98210  159600 -98210  159600 -92900  140510 -92900
+            140510 -98210  140520 -98210))
     (via "Via[0-1]_889:635_um")
     (rule
       (width 203.2)
@@ -36,34 +37,35 @@
   )
   (placement
     (component "_MT_MeshThing:_MT_microSD_3M_290805-A"
-      (place U1 147650 -112950 front 180 (PN CONN_MICROSD))
-    )
-    (component _MT_MeshThing:_MT_SM0603_Capa
-      (place C9 153280 -102700 front 270 (PN 100n))
+      (place U1 150000 -112900 back 180 (PN CONN_MICROSD))
     )
     (component "_MT_MeshThing:_MT_LED-0603"
-      (place D1 157650 -102700 front 90 (PN LED))
-      (place D2 142760 -102700 front 90 (PN LED))
+      (place D1 157500 -119500 front 90 (PN LED))
+      (place D2 142500 -119500 front 90 (PN LED))
     )
     (component "_MW_MeshWasp:_MT_CanFootprint-34Pin"
-      (place MT1 150000 -108090 back 0 (PN MESHTHING))
+      (place MT1 150000 -105250 front 0 (PN MESHTHING))
     )
     (component _MT_MeshThing:_MT_SM0603_Resistor
-      (place R2 156400 -102700 front 90 (PN 270))
-      (place R3 144010 -102700 front 90 (PN 270))
-    )
-    (component _MT_MeshThing:_MT_SMTJumper
-      (place SJ1 155100 -102700 front 270 (PN SMTJPR))
-      (place SJ2 145310 -102700 front 90 (PN SMTJPR))
+      (place R2 156000 -119500 front 90 (PN 270))
+      (place R3 144000 -119500 front 90 (PN 270))
     )
     (component "_MT_MeshThing:_MT_TC007-TactileSwitch"
-      (place SW1 150000 -102700 front 0 (PN RST))
+      (place SW1 150000 -119500 front 0 (PN RST))
     )
     (component _MW_MeshWasp:_MC_pin_pad_3x2
-      (place H2 157600 -109000 front 270 (PN ICSP))
+      (place H2 150000 -102560 back 180 (PN ICSP))
     )
     (component _MW_MeshWasp:_MW_XBee_Board_STD_THPads
       (place U2 150000 -100000 front 0 (PN XBEE))
+    )
+    (component _MT_OHW_LOGO:LOGO
+      (place G1 166840 -101500 front 0 (PN LOGO))
+      (place G2 167410 -108740 front 0 (PN LOGO))
+    )
+    (component _MW_MeshWasp:_MW_SMTJumper
+      (place SJ2 145500 -119500 front 270 (PN SMTJPR))
+      (place SJ1 154500 -119500 front 270 (PN SMTJPR))
     )
   )
   (library
@@ -97,16 +99,6 @@
       (pin Rect[T]Pad_1399.54x1899.92_um @1 -6763.86 6899.7)
       (pin Rect[T]Pad_1800.86x1399.54_um @2 4935.38 -7349.7)
       (pin Rect[T]Pad_1800.86x1399.54_um @3 -865.98 -7349.7)
-    )
-    (image _MT_MeshThing:_MT_SM0603_Capa
-      (outline (path signal 119.38  500.38 -650.24  1198.88 -650.24))
-      (outline (path signal 119.38  -500.38 -650.24  -1198.88 -650.24))
-      (outline (path signal 119.38  500.38 650.24  1198.88 650.24))
-      (outline (path signal 119.38  -1198.88 650.24  -500.38 650.24))
-      (outline (path signal 119.38  1198.88 635  1198.88 -635))
-      (outline (path signal 119.38  -1198.88 -635  -1198.88 635))
-      (pin Rect[T]Pad_635x1143_um 1 -762 0)
-      (pin Rect[T]Pad_635x1143_um 2 762 0)
     )
     (image "_MT_MeshThing:_MT_LED-0603"
       (outline (path signal 150  -110 -80  -110 70))
@@ -198,11 +190,6 @@
       (pin Rect[T]Pad_635x1143_um 1 -762 0)
       (pin Rect[T]Pad_635x1143_um 2 762 0)
     )
-    (image _MT_MeshThing:_MT_SMTJumper
-      (pin Rect[T]Pad_500x900_um 1 -650 0)
-      (pin Rect[T]Pad_500x900_um 2 650 0)
-      (pin Rect[T]Pad_1500x203.2_um 3 0 0)
-    )
     (image "_MT_MeshThing:_MT_TC007-TactileSwitch"
       (outline (path signal 150  -1950 -1450  -1950 -730))
       (outline (path signal 150  1950 -1450  1950 -730))
@@ -263,6 +250,13 @@
       (pin Round[A]Pad_1524_um 5 -11000.7 -8001)
       (pin Round[A]Pad_1524_um 1 -11000.7 0)
     )
+    (image _MT_OHW_LOGO:LOGO
+    )
+    (image _MW_MeshWasp:_MW_SMTJumper
+      (pin Rect[T]Pad_500x900_um 1 -650 0)
+      (pin Rect[T]Pad_500x900_um 2 650 0)
+      (pin Rect[T]Pad_800x203.2_um @1 0 0)
+    )
     (padstack Round[T]Pad_1250_um
       (shape (circle F.Cu 1250))
       (attach off)
@@ -305,6 +299,10 @@
       (shape (rect F.Cu -374.65 -750.57 374.65 750.57))
       (attach off)
     )
+    (padstack Rect[T]Pad_800x203.2_um
+      (shape (rect F.Cu -400 -101.6 400 101.6))
+      (attach off)
+    )
     (padstack Rect[T]Pad_800x800_um
       (shape (rect F.Cu -400 -400 400 400))
       (attach off)
@@ -321,10 +319,6 @@
       (shape (rect F.Cu -699.77 -949.96 699.77 949.96))
       (attach off)
     )
-    (padstack Rect[T]Pad_1500x203.2_um
-      (shape (rect F.Cu -750 -101.6 750 101.6))
-      (attach off)
-    )
     (padstack Rect[T]Pad_1800.86x1399.54_um
       (shape (rect F.Cu -900.43 -699.77 900.43 699.77))
       (attach off)
@@ -337,16 +331,16 @@
   )
   (network
     (net +3.3V
-      (pins U1-4 C9-1 MT1-1 SJ1-1 H2-2 U2-1)
+      (pins U1-4 MT1-1 H2-2 U2-1 SJ1-1)
     )
     (net GND
-      (pins U1-6 U1-9 C9-2 D1-2 D2-2 MT1-34 SW1-2 H2-6 U2-10)
+      (pins U1-6 U1-9 D1-2 D2-2 MT1-34 SW1-2 H2-6 U2-10)
     )
     (net MISO
-      (pins U1-7 MT1-15 H2-1)
+      (pins U1-7 MT1-15 H2-1 U2-16)
     )
     (net MOSI
-      (pins U1-3 MT1-14 H2-4)
+      (pins U1-3 MT1-14 H2-4 U2-15)
     )
     (net "Net-(D1-Pad1)"
       (pins D1-1 R2-2)
@@ -424,13 +418,13 @@
       (pins MT1-30 U2-17)
     )
     (net PF5
-      (pins MT1-31 U2-15)
+      (pins MT1-31)
     )
     (net PF6
-      (pins MT1-32 U2-16)
+      (pins MT1-32)
     )
     (net PF7
-      (pins MT1-33 U2-12)
+      (pins MT1-33)
     )
     (net RX0
       (pins MT1-20 U2-3)
@@ -442,7 +436,7 @@
       (pins MT1-2 SW1-1 H2-5 U2-5)
     )
     (net SCK
-      (pins U1-5 MT1-13 SJ2-1 H2-3)
+      (pins U1-5 MT1-13 H2-3 U2-12 SJ2-1)
     )
     (net SCL
       (pins MT1-4 U2-13)
@@ -499,10 +493,15 @@
     )
   )
   (wiring
-    (wire (path F.Cu 203.2  153280 -101938  154988 -101938  155100 -102050)(net +3.3V)(type protect))
-    (wire (path F.Cu 203.2  155100 -103350  156288 -103350  156400 -103462)(net "Net-(R2-Pad1)")(type protect))
-    (wire (path F.Cu 203.2  145310 -102050  145310 -102162  144010 -103462)(net "Net-(R3-Pad1)")(type protect))
-    (wire (path F.Cu 203.2  145310 -102070  145310 -102182  144010 -103482)(net "Net-(R3-Pad1)")(type protect))
-    (wire (path F.Cu 203.2  145166 -115900  145166 -103494  145310 -103350)(net SCK)(type protect))
+    (wire (path F.Cu 203.2  154500 -118850  153860 -118850  153640 -118630)(net +3.3V)(type protect))
+    (wire (path F.Cu 203.2  154500 -118850  154500 -119500)(net +3.3V)(type protect))
+    (wire (path F.Cu 203.2  154500 -120150  154500 -119500)(net +3.3V)(type protect))
+    (wire (path F.Cu 203.2  154500 -120150  155888 -120150  156000 -120262)(net "Net-(R2-Pad1)")(type protect))
+    (wire (path F.Cu 203.2  155888 -120150  156000 -120262)(net "Net-(R2-Pad1)")(type protect))
+    (wire (path F.Cu 203.2  155888 -120150  156000 -120262)(net "Net-(R2-Pad1)")(type protect))
+    (wire (path F.Cu 254  155888 -120150  156000 -120262)(net "Net-(R2-Pad1)")(type protect))
+    (wire (path F.Cu 254  155888 -120150  156000 -120262)(net "Net-(R2-Pad1)")(type protect))
+    (wire (path F.Cu 254  145500 -120150  144112 -120150  144000 -120262)(net "Net-(R3-Pad1)")(type protect))
+    (wire (path F.Cu 203.2  145500 -118850  145500 -118790  144285 -117575)(net SCK)(type protect))
   )
 )
