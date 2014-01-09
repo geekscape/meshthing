@@ -6,4 +6,6 @@
   (lib (name _MT_OHW_LOGO)(type Legacy)(uri ${KIPRJMOD}/Lib/OSHW_logo_KiCad_scalable/OSHW_logo_scaled.mod)(options "")(descr ""))
   (lib (name _MW_MeshWasp)(type KiCad)(uri ${KIPRJMOD}/Lib/MeshCan.pretty)(options "")(descr ""))
   (lib (name _MW_Logo)(type Legacy)(uri ${KIPRJMOD}/Lib/M9Logo/M9-Logo.emp)(options "")(descr ""))
+  (lib (name _MW_LogoScaled)(type Legacy)(uri ${KIPRJMOD}/Lib/M9Logo/M9Logo-scaled.mod)(options "")(descr ""))
+  (lib (name _MW_LogoFlipped)(type Legacy)(uri ${KIPRJMOD}/Lib/M9Logo/M9Logo-flipped.mod)(options "")(descr ""))
 )

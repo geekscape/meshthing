@@ -5,4 +5,5 @@
   (lib (name _MT_MC_Pretty)(type KiCad)(uri ${KIPRJMOD}/Lib/MeshCan.pretty)(options "")(descr ""))
   (lib (name _MT_LOGO1)(type Legacy)(uri ${KIPRJMOD}/Lib/Pic.mod)(options "")(descr ""))
   (lib (name _MT_OHW_LOGO)(type Legacy)(uri ${KIPRJMOD}/Lib/OSHW_logo_KiCad_scalable/OSHW_logo_scaled.mod)(options "")(descr ""))
+  (lib (name _MT_M9Logo-Scaled)(type Legacy)(uri ${KIPRJMOD}/Lib/M9Logo/M9Logo-scaled.mod)(options "")(descr ""))
 )
