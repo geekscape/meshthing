@@ -13,7 +13,10 @@
    viewBox="0 0 10180 11250 "
    id="svg4860"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="MeshWasp--brd.svg">
+   sodipodi:docname="MeshWasp--brd.svg"
+   inkscape:export-filename="/home/bob/Git/MeshAge/meshthing/MeshWasp/Resources/MeshWasp--brd.png"
+   inkscape:export-xdpi="299.82095"
+   inkscape:export-ydpi="299.82095">
   <metadata
      id="metadata5970">
     <rdf:RDF>
@@ -22,6 +25,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>SVG Picture created as MeshWasp--brd.svg date 2014/01/09 11:56:56 </dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
