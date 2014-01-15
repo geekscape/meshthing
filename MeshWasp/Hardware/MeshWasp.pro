@@ -1,13 +1,11 @@
-update=Wed 08 Jan 2014 13:58:30 EST
+update=Sun 12 Jan 2014 12:53:09 EST
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -92,3 +90,5 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+[general]
+version=1

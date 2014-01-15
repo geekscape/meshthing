@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 19 Dec 2013 11:23:55 EST
+PCBNEW-LibModule-V1  Wed 15 Jan 2014 14:09:31 EST
 # encoding utf-8
 Units mm
 $INDEX
@@ -7,6 +7,7 @@ $INDEX
 EMIShield-13.66x12.7
 EMIShield-16.5x16.5
 _MC_CanFootprint
+_MT_CanFootprint-34Pin
 $EndINDEX
 $MODULE 16MHz-3.2x2.5mm-TSX-3225
 Po 0 0 0 15 52B12D74 00000000 ~~
@@ -129,4 +130,275 @@ Ne 0 ""
 Po 0 11
 $EndPAD
 $EndMODULE _MC_CanFootprint
+$MODULE _MT_CanFootprint-34Pin
+Po 0 0 0 15 52D5FBA8 00000000 ~~
+Li _MT_CanFootprint-34Pin
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -5 1.5 1.5 0 0.15 N I 21 N "_MC_CanFootprint"
+T1 0 -2.5 1.5 1.5 0 0.15 N I 21 N "VAL**"
+T2 -2.56 3.79 0.5 0.5 900 0.125 N I 21 N "ICSP Pads"
+T2 -3.59 3.79 0.5 0.5 900 0.125 N I 21 N "Via Keepout"
+DS -5.5 7.27 -5.5 0.87 0.15 26
+DS -5.5 0.87 -1.65 0.87 0.15 26
+DS -1.65 0.87 -1.65 7.27 0.15 26
+DS -1.65 7.27 -5.5 7.27 0.15 26
+T2 0 -10 1.5 1.5 0 0.15 N I 21 N "Keepout"
+DS -9 -7.5 -7.5 -12 0.15 26
+DS -7.5 -12 -6 -7.5 0.15 26
+DS -6 -7.5 -4.5 -12 0.15 26
+DS -4.5 -12 -3 -7.5 0.15 26
+DS -3 -7.5 -1.5 -12 0.15 26
+DS -1.5 -12 0 -7.5 0.15 26
+DS 0 -7.5 1.5 -12 0.15 26
+DS 1.5 -12 3 -7.5 0.15 26
+DS 3 -7.5 4.5 -12 0.15 26
+DS 4.5 -12 6 -7.5 0.15 26
+DS 6 -7.5 7.5 -12 0.15 26
+DS 7.5 -12 9 -7.5 0.15 26
+DS -9.55 -7.06 9.55 -7.06 0.15 26
+DS -9.55 12.325 -9.55 -12.325 0.15 25
+DS -7.8 -12.325 7.8 -12.325 0.15 25
+DS 9.55 -12.325 9.55 12.325 0.15 25
+DS -7.8 12.325 7.8 12.325 0.15 25
+$PAD
+Sh "23" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po 6.985 12.325
+$EndPAD
+$PAD
+Sh "22" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po 5.715 12.325
+$EndPAD
+$PAD
+Sh "1" R 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 -3.81
+$EndPAD
+$PAD
+Sh "11" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 8.89
+$EndPAD
+$PAD
+Sh "2" R 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 -2.54
+$EndPAD
+$PAD
+Sh "3" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 -1.27
+$EndPAD
+$PAD
+Sh "4" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 0
+$EndPAD
+$PAD
+Sh "5" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 1.27
+$EndPAD
+$PAD
+Sh "6" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 2.54
+$EndPAD
+$PAD
+Sh "7" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 3.81
+$EndPAD
+$PAD
+Sh "8" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 5.08
+$EndPAD
+$PAD
+Sh "9" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 6.35
+$EndPAD
+$PAD
+Sh "10" T 1.4 0.7 0 0 0
+Dr 0 0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po -9.55 7.62
+$EndPAD
+$PAD
+Sh "12" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po -6.985 12.325
+$EndPAD
+$PAD
+Sh "13" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po -5.715 12.325
+$EndPAD
+$PAD
+Sh "14" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po -4.445 12.325
+$EndPAD
+$PAD
+Sh "15" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po -3.175 12.325
+$EndPAD
+$PAD
+Sh "16" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po -1.905 12.325
+$EndPAD
+$PAD
+Sh "17" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po -0.635 12.325
+$EndPAD
+$PAD
+Sh "18" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po 0.635 12.325
+$EndPAD
+$PAD
+Sh "19" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po 1.905 12.325
+$EndPAD
+$PAD
+Sh "20" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 12.325
+$EndPAD
+$PAD
+Sh "21" R 0.7 1.4 0 0 0
+Dr 0 0 -0.35
+At SMD N 00888000
+Ne 0 ""
+Po 4.445 12.325
+$EndPAD
+$PAD
+Sh "34" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 -3.81
+$EndPAD
+$PAD
+Sh "24" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 8.89
+$EndPAD
+$PAD
+Sh "25" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 7.62
+$EndPAD
+$PAD
+Sh "26" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 6.35
+$EndPAD
+$PAD
+Sh "27" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 5.08
+$EndPAD
+$PAD
+Sh "28" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 3.81
+$EndPAD
+$PAD
+Sh "29" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 2.54
+$EndPAD
+$PAD
+Sh "30" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 1.27
+$EndPAD
+$PAD
+Sh "31" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 0
+$EndPAD
+$PAD
+Sh "32" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 -1.27
+$EndPAD
+$PAD
+Sh "33" R 1.4 0.7 0 0 0
+Dr 0 -0.35 0
+At SMD N 00888000
+Ne 0 ""
+Po 9.55 -2.54
+$EndPAD
+$EndMODULE _MT_CanFootprint-34Pin
 $EndLIBRARY
