@@ -15,7 +15,7 @@ Contents:
 
 -Reference - Mostly datasheets.
 
-From v1.2 -- To be updated.
+
 Pinout:
 ![Pinout](https://github.com/geekscape/meshthing/blob/master/Resources/MTPinout.png?raw=true)
 
