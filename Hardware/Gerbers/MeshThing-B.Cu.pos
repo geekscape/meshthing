@@ -1,7 +1,6 @@
-### Module positions - created on Tue 22 Oct 2013 13:37:17 EST ###
-### Printed by Pcbnew version pcbnew (2013-mar-13)-testing
+### Module positions - created on Fri 24 Jan 2014 10:03:43 EST ###
+### Printed by Pcbnew version pcbnew (2013-12-14 BZR 4555)-product
 ## Unit = mm, Angle = deg.
 ## Side : F.Cu
 # Ref    Val                  Package         PosX       PosY        Rot     Side
-U1       CONN_MICROSD     _MT_microSD_3M_2   15.7850     8.4200       0.0    B.Cu
 ## End
