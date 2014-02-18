@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-12-14 BZR 4555)-product date = Mon 23 Dec 2013 23:54:41 EST
+Cmp-Mod V01 Created by CvPcb (2013-12-14 BZR 4555)-product date = Tue 18 Feb 2014 11:47:09 EST
 
 BeginCmp
 TimeStamp = /52B26C06;
@@ -96,13 +96,6 @@ TimeStamp = /52B65D55;
 Reference = F3;
 ValeurCmp = CONN_1;
 IdModule  = _MT_MC_Pretty:_MT_Fiducial;
-EndCmp
-
-BeginCmp
-TimeStamp = /52B66679;
-Reference = H1;
-ValeurCmp = ICSP;
-IdModule  = _MT_MC_Pretty:_MC_pin_pad_3x2;
 EndCmp
 
 BeginCmp

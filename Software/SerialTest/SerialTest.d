@@ -1,1 +1,0 @@
-SerialTest.o: SerialTest.c
