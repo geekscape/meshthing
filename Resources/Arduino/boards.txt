@@ -574,7 +574,7 @@ m2564RFR2.upload.maximum_size=258048
 m2564RFR2.upload.speed=115200
 
 m2564RFR2.bootloader.low_fuses=0xEF
-m2564RFR2.bootloader.high_fuses=0x99
+m2564RFR2.bootloader.high_fuses=0xD8
 m2564RFR2.bootloader.extended_fuses=0xFE
 m2564RFR2.bootloader.path=stk500v2
 m2564RFR2.bootloader.file=stk500boot_v2_m256rfr2.hex
