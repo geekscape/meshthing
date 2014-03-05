@@ -1,6 +1,6 @@
 %FSLAX34Y34*%
 G04 Gerber Fmt 3.4, Leading zero omitted, Abs format*
-G04 (created by PCBNEW (2013-12-14 BZR 4555)-product) date Tue 18 Feb 2014 14:51:01 EST*
+G04 (created by PCBNEW (2013-12-14 BZR 4555)-product) date Wed 05 Mar 2014 16:54:14 EST*
 %MOIN*%
 G01*
 G70*
