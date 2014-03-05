@@ -210,6 +210,45 @@
     (uvia_drill 0.127)
   )
 
+  (module _MW_MeshWasp:_MC_pin_pad_3x2 (layer B.Cu) (tedit 5316D480) (tstamp 52B7CF36)
+    (at 150 102.56)
+    (descr "Double rangee de contacts 2 x 4 pins")
+    (tags CONN)
+    (path /51BE9A19)
+    (attr smd)
+    (fp_text reference H2 (at 0 3.81) (layer B.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
+    )
+    (fp_text value ICSP (at 0 -3.81) (layer B.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
+    )
+    (fp_text user ICSP (at -4.6 0 270) (layer B.SilkS) hide
+      (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
+    )
+    (fp_line (start -3.81 2.1) (end -3.81 -1.74) (layer B.SilkS) (width 0.2032))
+    (fp_line (start 3.81 -2.1) (end -3 -2.1) (layer B.SilkS) (width 0.2032))
+    (fp_circle (center -3.53 -2.154) (end -3.78 -2.154) (layer B.SilkS) (width 0.254))
+    (fp_line (start -3.81 2.1) (end 3.81 2.1) (layer B.SilkS) (width 0.2032))
+    (fp_line (start 3.81 2.1) (end 3.81 -2.1) (layer B.SilkS) (width 0.2032))
+    (pad 1 smd rect (at -2.54 -1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
+      (net 3 MISO))
+    (pad 2 smd circle (at -2.54 1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
+      (net 1 +3.3V))
+    (pad 3 smd circle (at 0 -1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
+      (net 36 SCK))
+    (pad 4 smd circle (at 0 1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
+      (net 4 MOSI))
+    (pad 5 smd circle (at 2.54 -1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
+      (net 35 Reset))
+    (pad 6 smd circle (at 2.54 1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
+      (net 2 GND))
+    (model pin_array/pins_array_3x2.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
   (module _MT_MeshThing:_MT_LED-0603 (layer F.Cu) (tedit 52604B33) (tstamp 52B7AE3E)
     (at 157.5 119.5 90)
     (descr "LED 0603 smd package")
@@ -369,46 +408,9 @@
     (pad "" thru_hole rect (at -0.01 -0.9) (size 0.7 0.7) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module _MW_MeshWasp:_MC_pin_pad_3x2 (layer B.Cu) (tedit 52B7B611) (tstamp 52B7CF36)
-    (at 150 102.56)
-    (descr "Double rangee de contacts 2 x 4 pins")
-    (tags CONN)
-    (path /51BE9A19)
-    (fp_text reference H2 (at 0 3.81) (layer B.SilkS) hide
-      (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
-    )
-    (fp_text value ICSP (at 0 -3.81) (layer B.SilkS) hide
-      (effects (font (size 1.016 1.016) (thickness 0.2032)) (justify mirror))
-    )
-    (fp_text user ICSP (at -4.6 0 270) (layer B.SilkS)
-      (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
-    )
-    (fp_line (start -3.81 2.1) (end -3.81 -1.74) (layer B.SilkS) (width 0.2032))
-    (fp_line (start 3.81 -2.1) (end -3 -2.1) (layer B.SilkS) (width 0.2032))
-    (fp_circle (center -3.53 -2.154) (end -3.78 -2.154) (layer B.SilkS) (width 0.254))
-    (fp_line (start -3.81 2.1) (end 3.81 2.1) (layer B.SilkS) (width 0.2032))
-    (fp_line (start 3.81 2.1) (end 3.81 -2.1) (layer B.SilkS) (width 0.2032))
-    (pad 1 smd rect (at -2.54 -1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
-      (net 3 MISO))
-    (pad 2 smd circle (at -2.54 1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
-      (net 1 +3.3V))
-    (pad 3 smd circle (at 0 -1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
-      (net 36 SCK))
-    (pad 4 smd circle (at 0 1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
-      (net 4 MOSI))
-    (pad 5 smd circle (at 2.54 -1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
-      (net 35 Reset))
-    (pad 6 smd circle (at 2.54 1.27) (size 1.25 1.25) (layers B.Cu B.Mask)
-      (net 2 GND))
-    (model pin_array/pins_array_3x2.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
   (module _MT_OHW_LOGO:LOGO (layer B.Cu) (tedit 52B84407) (tstamp 52B842EE)
     (at 157.32 97.75)
+    (attr smd)
     (fp_text reference G1 (at 0 -2.38506) (layer B.SilkS) hide
       (effects (font (size 0.2032 0.2032) (thickness 0.04064)) (justify mirror))
     )
@@ -489,6 +491,7 @@
 
   (module _MT_LOGO1:LOGO (layer B.Cu) (tedit 52B84410) (tstamp 52B84D1A)
     (at 144 102.45)
+    (attr smd)
     (fp_text reference G2 (at 0 -3.302) (layer B.SilkS) hide
       (effects (font (thickness 0.3048)) (justify mirror))
     )
@@ -788,6 +791,7 @@
 
   (module _MW_LogoFlipped:M9Logo-flipped (layer B.Cu) (tedit 0) (tstamp 52CF23F2)
     (at 142.72 97.75)
+    (attr smd)
     (fp_text reference VAL (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.143 1.143) (thickness 0.1778)) (justify mirror))
     )
@@ -846,10 +850,10 @@
       (xy -0.85852 -0.54102) (xy -0.8636 -0.44704) (xy -0.8636 -0.37338) (xy -0.8636 -0.37338)) (layer B.SilkS) (width 0.00254))
   )
 
-  (module _MW_MeshWasp:_MT_CanFootprint-34Pin (layer F.Cu) (tedit 52D5FBA8) (tstamp 52CCB53F)
+  (module _MW_MeshWasp:_MT_CanFootprint-34Pin (layer F.Cu) (tedit 5316D5C5) (tstamp 52CCB53F)
     (at 150 105.25)
     (path /52B798AE)
-    (fp_text reference MT1 (at 0 -5) (layer F.SilkS) hide
+    (fp_text reference MT1 (at -9.2 -3.8) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
     )
     (fp_text value MESHTHING (at 0 -2.5) (layer F.SilkS) hide

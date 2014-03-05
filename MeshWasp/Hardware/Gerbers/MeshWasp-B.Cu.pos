@@ -1,0 +1,7 @@
+### Module positions - created on Wed 05 Mar 2014 18:31:12 EST ###
+### Printed by Pcbnew version pcbnew (2013-12-14 BZR 4555)-product
+## Unit = mm, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+U1       CONN_MICROSD     _MW_MeshWasp:_SD    0.0000   -12.9000       0.0    B.Cu
+## End
