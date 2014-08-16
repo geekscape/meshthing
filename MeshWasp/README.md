@@ -15,6 +15,6 @@ Contents:
 
 
 Pinout:
-![Pinout](https://github.com/geekscape/meshthing/blob/FlipMT/MeshWasp/Resources/MWPinout.png?raw=true)
+![Pinout](https://github.com/geekscape/meshthing/raw/master/MeshWasp/Resources/MWPinout.png)
 
 
